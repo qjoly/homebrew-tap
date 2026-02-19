@@ -9,11 +9,12 @@ class TalosctlOidc < Formula
   depends_on "go" => :build
 
   def install
+    commit = build.head? ? Utils.git_head : version
     ldflags = %W[
       -s -w
       -X main.version=#{version}
-      -X main.commit=#{Utils.git_head}
-      -X main.date=#{time.iso8601}
+      -X main.commit=#{commit}
+      -X main.date=#{Time.now.utc.iso8601}
     ]
     system "go", "build", *std_go_args(ldflags: ldflags)
   end
