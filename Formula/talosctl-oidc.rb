@@ -3,8 +3,8 @@ require "time"
 class TalosctlOidc < Formula
   desc "OIDC certificate exchange server and client for Talos Linux"
   homepage "https://github.com/qjoly/talosctl-oidc"
-  url "https://github.com/qjoly/talosctl-oidc/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "14902b31f6d892c066b46402b3c044c577f19d585e810a193551962327209920"
+  url "https://github.com/qjoly/talosctl-oidc/archive/refs/tags/v0.0.2.tar.gz"
+  sha256 "397c54805bbe739b7e47ffc6c71d328ef0e130d1b349d4c1c11b23a26fe3727f"
   license "MIT"
   head "https://github.com/qjoly/talosctl-oidc.git", branch: "main"
 
