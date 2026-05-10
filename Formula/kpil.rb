@@ -6,8 +6,8 @@ class Kpil < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/qjoly/kpil/releases/download/v0.0.1/kpil_0.0.1_darwin_arm64.tar.gz"
-      sha256 "ecf85d092570ce21c955343875cb1d87cad65c7a8a409cb80db4ed6f01893585"
+      url "https://github.com/qjoly/kpil/archive/refs/tags/v0.0.2.tar.gz"
+      sha256 "a3701c1ac79fc1a29f0716cbcc44abf9fcd51a57b33da3bcd7c7d7b70764a6e1"
     end
 
     on_intel do
