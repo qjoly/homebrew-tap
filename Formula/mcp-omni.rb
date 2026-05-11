@@ -6,15 +6,15 @@ class McpOmni < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/qjoly/mcp-omni/archive/refs/tags/v0.1.1.tar.gz"
-      sha256 "143cd40ce0fb09ca4607bfe5d505d7a7ae3aa930f9f4761c83ca7d1436071704"
+      url "https://github.com/qjoly/mcp-omni/archive/refs/tags/v0.1.3.tar.gz"
+      sha256 "dd082c5f303836057468cd091a91e7a9f7b10f2b3b29e485e4f5fc946b065712"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/qjoly/mcp-omni/archive/refs/tags/v0.1.1.tar.gz"
-      sha256 "143cd40ce0fb09ca4607bfe5d505d7a7ae3aa930f9f4761c83ca7d1436071704"
+      url "https://github.com/qjoly/mcp-omni/archive/refs/tags/v0.1.3.tar.gz"
+      sha256 "dd082c5f303836057468cd091a91e7a9f7b10f2b3b29e485e4f5fc946b065712"
     end
   end
 
