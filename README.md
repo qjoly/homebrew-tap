@@ -13,7 +13,7 @@ brew tap qjoly/tap
 | Formula | Description | Version | Install |
 | --- | --- | --- | --- |
 | [`kpil`](https://github.com/qjoly/kpil) | Spin up a GitHub Copilot CLI container with a read-only (no-secrets) kubeconfig | v0.0.2 | `brew install qjoly/tap/kpil` |
-| [`mcp-omni`](https://github.com/qjoly/mcp-omni) | MCP server for Omni Talos cluster management — native gRPC, no omnictl dependency | v0.1.1 | `brew install qjoly/tap/mcp-omni` |
+| [`mcp-omni`](https://github.com/qjoly/mcp-omni) | MCP server for Omni Talos cluster management — native gRPC, no omnictl dependency | v0.1.3 | `brew install qjoly/tap/mcp-omni` |
 | [`talosctl-oidc`](https://github.com/qjoly/talosctl-oidc) | OIDC certificate exchange server and client for Talos Linux | v0.0.4 | `brew install qjoly/tap/talosctl-oidc` |
 
 ## Updating
