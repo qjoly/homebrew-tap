@@ -6,25 +6,25 @@ class Kpil < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/qjoly/kpil/archive/refs/tags/v0.1.1.tar.gz"
-      sha256 "a21739632d5a8df734d15393dbeb5d8d44094aa11267100f78eec1bb76ab9e7f"
+      url "https://github.com/qjoly/kpil/archive/refs/tags/v0.2.0.tar.gz"
+      sha256 "7ccfe1d7554263a7511ce67a33a2f0faa2280c7ea43f2f3c9701521fe04c8a1c"
     end
 
     on_intel do
-      url "https://github.com/qjoly/kpil/archive/refs/tags/v0.1.1.tar.gz"
-      sha256 "a21739632d5a8df734d15393dbeb5d8d44094aa11267100f78eec1bb76ab9e7f"
+      url "https://github.com/qjoly/kpil/archive/refs/tags/v0.2.0.tar.gz"
+      sha256 "7ccfe1d7554263a7511ce67a33a2f0faa2280c7ea43f2f3c9701521fe04c8a1c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/qjoly/kpil/archive/refs/tags/v0.1.1.tar.gz"
-      sha256 "a21739632d5a8df734d15393dbeb5d8d44094aa11267100f78eec1bb76ab9e7f"
+      url "https://github.com/qjoly/kpil/archive/refs/tags/v0.2.0.tar.gz"
+      sha256 "7ccfe1d7554263a7511ce67a33a2f0faa2280c7ea43f2f3c9701521fe04c8a1c"
     end
 
     on_intel do
-      url "https://github.com/qjoly/kpil/archive/refs/tags/v0.1.1.tar.gz"
-      sha256 "a21739632d5a8df734d15393dbeb5d8d44094aa11267100f78eec1bb76ab9e7f"
+      url "https://github.com/qjoly/kpil/archive/refs/tags/v0.2.0.tar.gz"
+      sha256 "7ccfe1d7554263a7511ce67a33a2f0faa2280c7ea43f2f3c9701521fe04c8a1c"
     end
   end
 
